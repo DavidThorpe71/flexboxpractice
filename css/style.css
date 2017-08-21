@@ -30,19 +30,13 @@
 /* Flex box stuff below */
 .container {
 	display: flex;
-/*	justify-content: space-between;*/
-	align-items: baseline;
+	border: 10px solid mistyrose;
 	height: 100vh;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 }
 
-.box5 {
-	font-size: 10px;
-}
-
-.box8 {
-	font-size: 100px;
-}
-
-.box7 {
-	font-size: 70px;
+.box {
+	width: 33.3333333%;
 }
