@@ -30,6 +30,8 @@
 /* Flex box stuff below */
 .container {
 	display: flex;
-	border: 10px solid goldenrod;
-	height: 100vh;
+}
+
+.box {
+	flex: 1;
 }
